@@ -4,13 +4,11 @@ Requirements: Python 3.7.x
 Install dependencies first:
 ```pip install -r requirements.txt```
 
-Recommended over pip install, use `pipenv`:
-1. Install `pipenv`\
-```pip install pipenv```
+Recommended over pip install, use `poetry`:
+1. Install `poetry`\
+```pip install poetry```
 
-2. Use `pipenv` install dependencies\
-```pipenv install```\
-```pipenv --python 3.7```
+2. Use `poetry` install dependencies\
+```poetry install```\
 
-
-Run from `main.py`
+Run from `main.py`, or `poetry run python main.py`
